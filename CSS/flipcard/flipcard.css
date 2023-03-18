@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+
+.item1 {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+
+}
+
+.item2 {
+    background-color: #0000FF;
+    width: 300px;
+    height: 300px;
+    z-index:1;
+    margin-top: 50px;
+    margin-left: -150px;
+    box-shadow: -18px -14px 60px 1px  #000;
+   
+ 
+ 
+ 
+
+
+}
+
+.container {
+display: flex;
+
+border: 2px solid blue;
+width: max-content;
+  
+  
+    
+}
+
+
+
+
+
+
+@media only screen and (min-width:768px){
+
+.container:hover .item2{
+  animation-name: flipcard;
+  animation-duration: 4s;
+  
+ 
+
+
+  
+}
+
+
+
+
+
+
+@keyframes flipcard{
+  25%{
+    margin-top: 100px;
+    margin-left: 20px;
+      
+  }
+  50%,60%{
+    z-index:-1;
+    margin-top: 50px;
+    margin-left: -150px;
+    transition-delay: 1s;
+      
+  }
+
+  75%{
+   
+    margin-top: 100px;
+    margin-left: 20px;
+    z-index: -1;
+    
+      
+
+  }
+
+  
+
+  100%{
+ 
+    z-index:1;
+    margin-top: 50px;
+    margin-left: -150px;
+      
+
+  }
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:768px ){
+    
+    .container{
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+        margin: 0;
+        
+        
+    }
+    
+    .item2{
+        margin-left: 0px;
+        margin-top: -20%;
+        box-shadow: -8px -14px 60px 1px  #000;
+        width: 60vw;
+        height: 300px;
+        
+        
+    }
+
+    .item1{
+        width: 60vw;
+        height: 300px;
+
+    }
+    
+  }

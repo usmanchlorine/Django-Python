@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(8, 251, 130);
+}
+
+
+h1{
+    font-weight: 800;
+    text-align: center;
+    border: 6px solid blue;
+    border-radius: 10px;
+}
+
+
+
+
+
+h3{
+    margin-left:20%;
+
+}
+
+
+.back1 p{
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+.back1{
+    background-color: rgb(241, 214, 179);
+    width: 100%;
+    height: 100px;
+}
+
+
+.mainframe{
+    border:4px solid orange;
+    display: flex;
+}
+
+
+.mainframe img{
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    filter: grayscale(1);
+    transition: 0.3s;
+    caption-side: bottom;
+    
+   
+    
+}
+
+.mainframe figure{
+    
+    margin: 3px 10px;
+    
+    
+  
+}
+.mainframe figcaption{
+    
+    text-align: center;
+    display: none;
+    transition: 0.3s;
+    
+    
+  
+}
+
+
+.mainframe figure:hover figcaption{
+    
+    text-align: center;
+    display:block;
+   
+    
+    
+  
+}
+
+.mainframe img:hover{
+    filter: grayscale(0);
+    
+}
+
+
+
+.fixed{
+    background-color: orange;
+    width: fit-content;
+    height: 30px;
+    bottom: 10px;
+    right: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.fixed a{
+    text-decoration: none;
+    padding: 12px 32px ;
+}

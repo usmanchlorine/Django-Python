@@ -1,0 +1,39 @@
+#main_heading{
+    color: coral;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+body{
+    background-color:rgb(68, 65, 65);
+}
+
+.poster_container{
+    border:2px solid gray;
+    margin-top: 100px;
+    background-color: rgb(153, 148, 147);
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;    
+
+}
+
+.poster_container img{
+    margin-left: 20px;
+    
+  
+}
+
+
+.footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    border: 2px solid gray;
+    padding-right: 20px;
+    background-color: rgb(95, 95, 95);
+    font:32px;
+}

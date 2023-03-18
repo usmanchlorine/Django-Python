@@ -1,0 +1,25 @@
+th,td{
+    color: blue;
+    columns: 4rem 2 ;
+    
+    
+    border: 2px solid darkblue ;
+    background-color: rgba(0, 0, 0, 0.131);
+    align-content: center;
+    padding-left: 4em;
+}
+
+table{
+    border:3px solid rgb(14, 229, 236) ;
+    
+}
+
+img{
+    background-color: black;
+    height: 200px ;
+    width: 200px;
+}
+body{
+    background-color: rgba(240, 29, 159, 0.287);
+}
+
